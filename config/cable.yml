@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-  channel_prefix: el_veterinario_rails_6_pg_production
+  channel_prefix: dataveterinario_pg_production
